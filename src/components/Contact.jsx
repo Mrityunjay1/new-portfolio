@@ -10,10 +10,10 @@ const Contact = () => {
                 {CONTACT.address}
             </p>
             <p className="my-4">
-                {CONTACT.phoneNo}
+               Ph.No-  {CONTACT.phoneNo}
             </p>
             <a href="#" className="my-4">
-                {CONTACT.email}
+                Email- {CONTACT.email}
             </a>
         </div>
     </div>

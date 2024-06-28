@@ -13,8 +13,8 @@ const Experience = () => {
               </div>
               <div className="w-full max-w-xl lg:w-3/4">
                 <h6 className="mb-2 font-semibold">
-                  {exp.role}-
-                  <span className="text-sm text-purple-100">{exp.company}</span>
+                  {exp.role}- 
+                  <span className="text-sm text-purple-100"> {exp.company}</span>
                 </h6>
                 <p className="mb-4 text-neutral-400">{exp.description}</p>
                 {exp.technologies.map((tech, index) => (
